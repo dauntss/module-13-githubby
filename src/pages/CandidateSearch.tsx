@@ -74,7 +74,7 @@ const CandidateSearch = () => {
   return (
     <>
       <h1>Candidate Search</h1>
-      <div>
+      <div className="search-result">
         {users.length > 0 && (
           <>
             <img src={users[0].avatar_url || 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Blank.png'} alt="User Avatar" />
@@ -83,13 +83,12 @@ const CandidateSearch = () => {
             <p>Email: {users[0].email || 'none listed'}</p>
             <p>Company: {users[0].company || 'none listed'}</p>
             <p>Bio: {users[0].bio || 'none listed'}</p>
-
-            <button onClick={handleSaveCandidate}>
-              Add to List
-            </button>
           </>
         )}
       </div>
+      <button onClick={handleSaveCandidate}>
+        Add to List
+      </button>
     </>
   );
 };
