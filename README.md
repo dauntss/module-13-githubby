@@ -1,33 +1,42 @@
-# React + TypeScript + Vite
+# Module 9 Challenge - Weather Widget
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![dauntss](https://img.shields.io/badge/created_by-dauntss-deeppink)](http://github.com/dauntss)
 
-Currently, two official plugins are available:
+## Description
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+![A screencapture of the final product.](./public/cap1.png)
+![A second screencapture of the final product.](./public/cap2.png)
 
-## Expanding the ESLint configuration
+## Table of Contents
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [License](#license)
 
-* Configure the top-level `parserOptions` property as follows:
+## Installation
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Visit [https://githubby.onrender.com](https://githubby.onrender.com)
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+## Usage
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Hunting for employees via random github users.
+
+## Contributions
+
+Vite
+Express.js
+Render
+Typescript
+
+## License 
+
+Licensed under None
+
+## Tests
+
+N/A
+
+## Questions
+
+Created by [dauntss](http://github.com/dauntss), [kat.krahulec@gmail.com](mailto:kat.krahulec@gmail.com)
